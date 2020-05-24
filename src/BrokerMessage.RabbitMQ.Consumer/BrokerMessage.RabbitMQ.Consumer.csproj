@@ -5,6 +5,11 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <PackageReference Include="Silverback.Core" Version="2.1.1" />
+    <PackageReference Include="Silverback.Integration.RabbitMQ" Version="2.1.1" />
+  </ItemGroup>
+
+  <ItemGroup>
     <ProjectReference Include="..\BrokerMessage.RabbitMQ.Core\BrokerMessage.RabbitMQ.Core.csproj" />
   </ItemGroup>
 
