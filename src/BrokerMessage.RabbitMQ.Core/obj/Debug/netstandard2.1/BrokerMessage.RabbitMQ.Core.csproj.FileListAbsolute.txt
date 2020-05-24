@@ -1,7 +1,0 @@
-C:\Users\Renan\source\repos\BrockerMessage.RabbitMQ\src\BrokerMessage.RabbitMQ.Core\obj\Debug\netstandard2.1\BrokerMessage.RabbitMQ.Core.AssemblyInfoInputs.cache
-C:\Users\Renan\source\repos\BrockerMessage.RabbitMQ\src\BrokerMessage.RabbitMQ.Core\obj\Debug\netstandard2.1\BrokerMessage.RabbitMQ.Core.AssemblyInfo.cs
-C:\Users\Renan\source\repos\BrockerMessage.RabbitMQ\src\BrokerMessage.RabbitMQ.Core\bin\Debug\netstandard2.1\BrokerMessage.RabbitMQ.Core.deps.json
-C:\Users\Renan\source\repos\BrockerMessage.RabbitMQ\src\BrokerMessage.RabbitMQ.Core\bin\Debug\netstandard2.1\BrokerMessage.RabbitMQ.Core.dll
-C:\Users\Renan\source\repos\BrockerMessage.RabbitMQ\src\BrokerMessage.RabbitMQ.Core\bin\Debug\netstandard2.1\BrokerMessage.RabbitMQ.Core.pdb
-C:\Users\Renan\source\repos\BrockerMessage.RabbitMQ\src\BrokerMessage.RabbitMQ.Core\obj\Debug\netstandard2.1\BrokerMessage.RabbitMQ.Core.dll
-C:\Users\Renan\source\repos\BrockerMessage.RabbitMQ\src\BrokerMessage.RabbitMQ.Core\obj\Debug\netstandard2.1\BrokerMessage.RabbitMQ.Core.pdb
