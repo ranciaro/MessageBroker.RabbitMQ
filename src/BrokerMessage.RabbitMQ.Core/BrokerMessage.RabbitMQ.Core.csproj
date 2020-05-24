@@ -6,6 +6,7 @@
 
   <ItemGroup>
     <PackageReference Include="RabbitMQ.Client" Version="6.0.0" />
+    <PackageReference Include="Silverback.Core.Model" Version="2.1.1" />
   </ItemGroup>
 
 </Project>
