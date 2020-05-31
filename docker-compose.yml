@@ -1,0 +1,38 @@
+version: '3.4'
+
+services:
+  brokermessage-rabbitmq-consumer:
+    #container_name: brokermessage-rabbitmq-consumer
+    ports:
+      - 5010:80
+    depends_on:
+      - brokermessage-rabbitmq
+    restart: always
+    image: brokermessage-rabbitmq-consumer    
+    build:
+      context: .
+      dockerfile: src/BrokerMessage.RabbitMQ.Consumer/Dockerfile
+      
+  brokermessage-rabbitmq-producer:
+    #container_name: brokermessage-rabbitmq-producer
+    ports:
+      - 5000:80
+    depends_on:
+      - brokermessage-rabbitmq
+    restart: always
+    image: brokermessage-rabbitmq-producer
+    build:
+      context: .
+      dockerfile: src/BrokerMessage.RabbitMQ.Producer/Dockerfile
+      
+  brokermessage-rabbitmq:
+    image: rabbitmq:3-management
+    restart: always
+    environment:
+        RABBITMQ_ERLANG_COOKIE: "SWQOKODSQALRPCLNMEQG"
+        RABBITMQ_DEFAULT_USER: "guest"
+        RABBITMQ_DEFAULT_PASS: "guest"
+        RABBITMQ_DEFAULT_VHOST: "/"
+    ports:
+        - "15672:15672"
+        - "5672:5672"

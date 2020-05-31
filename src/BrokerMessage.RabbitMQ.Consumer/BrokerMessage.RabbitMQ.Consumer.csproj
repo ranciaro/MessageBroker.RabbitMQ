@@ -2,9 +2,14 @@
 
   <PropertyGroup>
     <TargetFramework>netcoreapp3.1</TargetFramework>
+    <UserSecretsId>a68568a8-2cc9-45ab-937e-6406067679ad</UserSecretsId>
+    <DockerDefaultTargetOS>Linux</DockerDefaultTargetOS>
+    <DockerfileContext>..\..</DockerfileContext>
+    <DockerComposeProjectPath>..\..\docker-compose.dcproj</DockerComposeProjectPath>
   </PropertyGroup>
 
   <ItemGroup>
+    <PackageReference Include="Microsoft.VisualStudio.Azure.Containers.Tools.Targets" Version="1.9.10" />
     <PackageReference Include="Silverback.Core" Version="2.1.1" />
     <PackageReference Include="Silverback.Integration.RabbitMQ" Version="2.1.1" />
   </ItemGroup>

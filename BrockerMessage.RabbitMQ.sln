@@ -3,11 +3,11 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.29613.14
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BrokerMessage.RabbitMQ.Producer", "src\BrokerMessage.RabbitMQ.Producer\BrokerMessage.RabbitMQ.Producer.csproj", "{58B0239A-CFE0-4532-84B3-E849162AAF8B}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BrokerMessage.RabbitMQ.Producer", "src\BrokerMessage.RabbitMQ.Producer\BrokerMessage.RabbitMQ.Producer.csproj", "{58B0239A-CFE0-4532-84B3-E849162AAF8B}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BrokerMessage.RabbitMQ.UnitTests", "tests\BrokerMessage.RabbitMQ.UnitTests\BrokerMessage.RabbitMQ.UnitTests.csproj", "{0030293D-1D9A-4189-AC94-4D231FAC668F}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BrokerMessage.RabbitMQ.UnitTests", "tests\BrokerMessage.RabbitMQ.UnitTests\BrokerMessage.RabbitMQ.UnitTests.csproj", "{0030293D-1D9A-4189-AC94-4D231FAC668F}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BrokerMessage.RabbitMQ.Consumer", "src\BrokerMessage.RabbitMQ.Consumer\BrokerMessage.RabbitMQ.Consumer.csproj", "{4385271F-D7F0-40DE-AB68-514CCF6EA27E}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BrokerMessage.RabbitMQ.Consumer", "src\BrokerMessage.RabbitMQ.Consumer\BrokerMessage.RabbitMQ.Consumer.csproj", "{4385271F-D7F0-40DE-AB68-514CCF6EA27E}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BrokerMessage.RabbitMQ.Core", "src\BrokerMessage.RabbitMQ.Core\BrokerMessage.RabbitMQ.Core.csproj", "{5F846A74-911A-49D2-A074-AFA550F69785}"
 EndProject
