@@ -16,7 +16,9 @@ namespace BrokerMessage.RabbitMQ.Core.Services
 
         public async Task Publish(CustomerMessage customerMessage)
         {
-            await _publisher.PublishAsync(customerMessage);
+            //await _publisher.PublishAsync(customerMessage);
+
+            var result = await _publisher.PublishAsync<CustomerReceivedOk>(customerMessage);
             //Console.WriteLine($"Mensagem foi entregue. Retorno: {result.Single().ProcessedDate}");
         }
     }

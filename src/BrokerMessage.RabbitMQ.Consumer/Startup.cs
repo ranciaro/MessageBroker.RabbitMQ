@@ -6,6 +6,7 @@ using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
 using Silverback.Messaging;
 using Silverback.Messaging.Configuration;
+using System.Threading;
 
 namespace BrokerMessage.RabbitMQ.Consumer
 {
@@ -69,7 +70,7 @@ namespace BrokerMessage.RabbitMQ.Consumer
 
         private RabbitConnectionConfig GetConnection() => new RabbitConnectionConfig
         {
-            HostName = "localhost",
+            HostName = "10.113.5.253",
             UserName = "guest",
             Password = "guest"
         };

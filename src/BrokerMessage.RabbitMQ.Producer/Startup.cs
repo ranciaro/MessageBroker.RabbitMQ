@@ -23,7 +23,7 @@ namespace BrokerMessage.RabbitMQ.Api
         // This method gets called by the runtime. Use this method to add services to the container.
         public void ConfigureServices(IServiceCollection services)
         {
-            services.AddTransient<ICustomerPublisher, CustomerPublisher>();
+            services.AddScoped<ICustomerPublisher, CustomerPublisher>();
 
             services.AddSilverback()
                     .UseModel()
@@ -70,7 +70,7 @@ namespace BrokerMessage.RabbitMQ.Api
 
         private RabbitConnectionConfig GetConnection() => new RabbitConnectionConfig
         {
-            HostName = "localhost",
+            HostName = "10.113.5.253",
             UserName = "guest",
             Password = "guest"
         };
